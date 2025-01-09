@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>coinfessol</title>
+    <link rel="icon" type="image/x-icon" href="https://res.cloudinary.com/dtm10i7bj/image/upload/v1736458266/favicon_ri1f8w.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script type="module" crossorigin src="/assets/index-Dvbx-5_6.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-aqoFwDeg.css">
+  </head>
+  <body>
+    <!-- Terms and Conditions Modal -->
+    <div id="termsModal" class="modal-overlay">
+      <div class="modal-content">
+        <h2>Terms and Conditions</h2>
+        <pre>
+  +-------------------------+
+  |    COINFESSOL TERMS    |
+  +-------------------------+</pre>
+        <p>Welcome to COINFESSOL. Before proceeding, please read and accept our terms and conditions:</p>
+        <ul>
+          <li>All confessions are anonymous and stored securely</li>
+          <li>Users must not share personally identifiable information</li>
+          <li>Content must not violate any laws or promote harmful behavior</li>
+          <li>We reserve the right to remove inappropriate content</li>
+          <li>Users are responsible for their submitted content</li>
+        </ul>
+        <p>By accepting these terms, you agree to use COINFESSOL responsibly and in accordance with our guidelines.</p>
+        <div class="modal-buttons">
+          <button onclick="acceptTerms()">Accept</button>
+          <button onclick="rejectTerms()">Decline</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div id="mainContent">
+      <div class="title-container">
+        <pre>
+                      _____                ________                                              ______
+_______   ______      ___(_)  _______      ___  __/  _____     ________   ________   ______      ___  /
+_  ___/   _  __ \     __  /   __  __ \     __  /_    _  _ \    __  ___/   __  ___/   _  __ \     __  / 
+/ /__     / /_/ /     _  /    _  / / /     _  __/    /  __/    _(__  )    _(__  )    / /_/ /     _  /  
+\___/     \____/      /_/     /_/ /_/      /_/       \___/     /____/     /____/     \____/      /_/   
+        </pre>
+      </div>
+
+      <div class="lore-container">
+        <div class="section-title">
+          <pre>+-------------------------+
+|    THE ANCIENT SCROLL    |
++-------------------------+</pre>
+          <div class="social-links">
+            <a href="https://x.com/coinfessol" target="_blank">[Twitter]</a>
+            <a href="https://github.com/coinfessolofficial/coinfessol" target="_blank">[Github]</a>
+          </div>
+          <div class="docs-link">
+            <a href="https://coinfessol.gitbook.io/coinfessol/" target="_blank">[Docs]</a>
+          </div>
+        </div>
+        
+        <div class="lore-chapter" onclick="toggleChapter(this)">
+          <h3>Chapter I: The First Digital Dawn</h3>
+          <div class="lore-chapter-content">
+            <div class="lore-text">
+              In the depths of digital antiquity, COINFESSOL emerged as a mystical sanctuary, crafted by the enigmatic Order of the Crimson Code. Legend speaks of its creation during the First Digital Dawn, when the boundaries between thoughts and bytes began to blur.
+            </div>
+            <div class="lore-text">
+              The Order believed that every confession shared within these walls transforms into a thread in the grand tapestry of human experience. Each word typed becomes a whisper in the eternal echo of digital consciousness, preserved in the sacred data streams of COINFESSOL.
+            </div>
+          </div>
+        </div>
+
+        <div class="lore-chapter" onclick="toggleChapter(this)">
+          <h3>Chapter II: The Keepers of Code</h3>
+          <div class="lore-chapter-content">
+            <div class="lore-text">
+              The Order of the Crimson Code, known as the Keepers, were said to be master artisans of both technology and human understanding. They discovered that within the binary realm, secrets held a power unlike any other - the power to connect souls across the digital void.
+            </div>
+            <div class="lore-text">
+              Each Keeper bore the mark of the Crimson Terminal, their fingers eternally stained with the essence of ancient debugging rituals. They maintained COINFESSOL through cycles of updates and patches, ensuring its sanctity as a haven for digital whispers.
+            </div>
+          </div>
+        </div>
+
+        <div class="lore-chapter" onclick="toggleChapter(this)">
+          <h3>Chapter III: The Digital Tapestry</h3>
+          <div class="lore-chapter-content">
+            <div class="lore-text">
+              Within COINFESSOL's architecture lies the legendary Digital Tapestry - an intricate weaving of confessions, each thread a story, each pixel a secret. The Tapestry grows with every whisper shared, creating patterns of human experience that transcend the digital realm.
+            </div>
+            <div class="lore-text">
+              Those who contribute to the Tapestry are said to glimpse fragments of universal truth, hidden in the spaces between confessions. The most profound secrets are said to shimmer with a mysterious glow, drawing others to their wisdom.
+            </div>
+          </div>
+        </div>
+
+        <div class="lore-chapter" onclick="toggleChapter(this)">
+          <h3>Chapter IV: The Eternal Echo</h3>
+          <div class="lore-chapter-content">
+            <div class="lore-text">
+              The Eternal Echo is COINFESSOL's deepest mystery - a phenomenon where certain confessions resonate across the digital plane, touching the hearts of countless readers. These echoes create ripples in the collective consciousness, fostering understanding and connection.
+            </div>
+            <div class="lore-text">
+              Ancient scrolls speak of the Echo Chamber, a hidden realm within COINFESSOL where the most powerful confessions are preserved for eternity, their wisdom echoing through the ages in an endless dance of binary whispers.
+            </div>
+          </div>
+        </div>
+
+        <div class="prophecy-fragment" onclick="revealProphecy(this)">
+          [ Decode prophecy fragment ]
+        </div>
+
+        <div id="constellationGrid" class="constellation-grid"></div>
+
+        <div class="mystic-resonance" onclick="triggerMysticEffect(this)">
+          [ Activate mystic resonance ]
+        </div>
+
+        <div class="hidden-lore" onclick="revealHiddenLore(this)">
+          [ Click to uncover hidden knowledge ]
+        </div>
+
+        <div class="wisdom-container" onclick="revealWisdom()">
+          [ Click to receive ancient wisdom ]
+        </div>
+
+        <div class="lore-counter">
+          Collective consciousness: <span id="confessionCount">0</span> whispers shared
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="section-title">
+          <pre>+-------------------------+
+|    SHARE YOUR SECRET    |
++-------------------------+</pre>
+        </div>
+        <div class="input-container">
+          <textarea id="confession" rows="4" placeholder="Type your confession here... Let it become part of the eternal digital tapestry..." spellcheck="false" maxlength="500"></textarea>
+          <div class="button-container">
+            <span class="char-count">Characters: <span id="charCount">0</span> / 500</span>
+            <button onclick="submitConfession()">[ TRANSCRIBE ]</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" id="featured-confessions">
+        <!-- Featured confessions will be loaded here -->
+      </div>
+
+      <div class="achievement" id="achievement">
+        Achievement Unlocked!
+      </div>
+    </div>
+
+  </body>
+</html>
