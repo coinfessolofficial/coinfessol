@@ -1,7 +1,7 @@
 # <div align="center"> COINFESSOL
 
 <div align="center">
-  <img src="https://res.cloudinary.com/dtm10i7bj/image/upload/v1736458271/wmremove-transformed_ymirnc.jpg" alt="COINFESSOL Logo" width="250" height="250">
+  <img src="https://res.cloudinary.com/dtm10i7bj/image/upload/v1736466559/e6b6ce02-886f-49c8-a6ec-c3e074ee5239_y9r7xi.jpg" alt="COINFESSOL Logo" width="250" height="250">
 
   <h3 align="center">COINFESSOL - The Digital Sanctuary of Secrets</h3>
 
